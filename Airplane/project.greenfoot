@@ -1,0 +1,8 @@
+#Greenfoot properties
+#Thu Sep 28 11:54:39 PDT 2017
+version=2.2.1
+project.charset=UTF-8
+class.Airplane.image=airplane.png
+class.Airplane.superclass=greenfoot.Actor
+class.Sky.image=wet-blue.jpg
+class.Sky.superclass=greenfoot.World

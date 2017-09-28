@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Airplane()
+comment1.params=alt\ nm\ sp\ nons
+comment1.target=Airplane(int,\ java.lang.String,\ double,\ boolean)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4
