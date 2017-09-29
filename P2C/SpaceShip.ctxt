@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=SpaceShip
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=SpaceShip()
+comment3.params=shipName\ shipSpeed
+comment3.target=SpaceShip(java.lang.String,\ int)
+comment4.params=
+comment4.target=java.lang.String\ toStirng()
+numComments=5
