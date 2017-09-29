@@ -1,0 +1,32 @@
+#Greenfoot properties
+#Thu Sep 28 23:30:22 PDT 2017
+target1.type=ClassTarget
+project.charset=UTF-8
+mainWindow.height=600
+editor.fx.0.width=0
+readme.y=10
+readme.x=10
+version=3.0.0
+readme.height=58
+class.MyWorld.image=Wall.jpg
+target1.typeParameters=
+world.lastInstantiated=MyWorld
+class.MyWorld.superclass=greenfoot.World
+target1.height=50
+editor.fx.0.y=0
+mainWindow.y=40
+target1.width=80
+mainWindow.x=40
+editor.fx.0.x=0
+readme.width=47
+editor.fx.0.height=0
+package.numDependencies=0
+target1.y=0
+target1.x=0
+mainWindow.width=850
+package.numTargets=1
+class.Robot.superclass=greenfoot.Actor
+target1.name=MyWorld
+class.Robot.image=robot.png
+target1.showInterface=false
+readme.name=@README
