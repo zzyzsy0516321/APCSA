@@ -15,7 +15,13 @@ public class Sky extends World
      */
     public Sky()
     {    
+        
+       
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+        
+        Airplane airChina = new Airplane();
+        addObject(airChina,300,200);
+
     }
 }

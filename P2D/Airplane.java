@@ -11,19 +11,19 @@ public class Airplane extends Actor
     
     int altitude;
     String name;
-    double speed;
+    int speed;
     boolean nonStop;
     
     
     public Airplane () {
     
-            
-        
+       speed = 10;
+
         
         
     }
     
-    public Airplane (int alt, String nm, double sp, boolean nons) {
+    public Airplane (int alt, String nm, int sp, boolean nons) {
     
     name = nm;
     altitude = alt;
@@ -33,14 +33,41 @@ public class Airplane extends Actor
     }
     
     public void act() 
+    
     {
-          move(20);   
+        
+        int degree = (int)(Math.random()*180) + 1;
+        
+        altitude = -1* getY() + 30000;
+        getWorld().showText(toString(),150,50); 
+
+        
+        
+        move(speed);   
+        
+        if (Math.random() < 0.05) {   //The airplane has 5% chance to turn after every move
+        
+        turn(degree);
+        
+        }
+        
+        if (isAtEdge()) {
+        
+            turn(degree);
+        
+        }
+        
+        System.out.println(degree);
+          
+          
+          
+          
     }    
     
     
     public String toString() {
     
-        return "";
+        return "Name: " + name + "\n" + "Speed: " + speed + "\n" + "Altitude: " + altitude + " feet" + "\n" + "Non-Stop Flight: " + nonStop + "\n";
       
     }
     

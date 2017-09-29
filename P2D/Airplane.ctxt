@@ -1,10 +1,12 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Airplane()
-comment1.params=alt\ nm\ sp\ nons
-comment1.target=Airplane(int,\ java.lang.String,\ double,\ boolean)
-comment2.params=
-comment2.target=void\ act()
+comment0.target=Airplane
+comment0.text=\n\ Write\ a\ description\ of\ class\ Airplane\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Airplane()
+comment2.params=alt\ nm\ sp\ nons
+comment2.target=Airplane(int,\ java.lang.String,\ int,\ boolean)
 comment3.params=
-comment3.target=java.lang.String\ toString()
-numComments=4
+comment3.target=void\ act()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
